@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Calculator">
+    <meta name="Author" content="Ahmet Yahya BIYIK">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Basic Calculator</h1>
+        <div class="calculator">
+        
+            <div id="display-buttons">
+                    <input type="text" id="display-numbers" name="display-numbers" autocomplete="off">
+                    <div class="line"></div>
+                </div>
+            <div class="buttons">
+                <button class="button operator" id="btn-leftparenthesis">&#40;</button>
+                <button class="button operator" id="btn-rightparenthesis">&#41;</button>
+                <button class="button operator" id="btn-backspace" title="Clear Entry">CE</button>
+                <button class="button operator" id="btn-allclear" title="All Clear">AC</button>
+    
+    
+                <button class="button" id="btn-7">7</button>
+                <button class="button" id="btn-8">8</button>
+                <button class="button" id="btn-9">9</button>
+                <button class="button operator" id="btn-divide">&divide;</button>
+    
+                <button class="button" id="btn-4">4</button>
+                <button class="button" id="btn-5">5</button>
+                <button class="button" id="btn-6">6</button>
+                <button class="button operator" id="btn-multiply">&times;</button>
+    
+                <button class="button" id="btn-1">1</button>
+                <button class="button" id="btn-2">2</button>
+                <button class="button" id="btn-3">3</button>
+                <button class="button operator" id="btn-subtract">&minus;</button>
+    
+                <button class="button zero" id="btn-0">0</button>
+                <!-- <button class="button operator" id="btn-delete">C</button> -->
+                <button class="button operator" id="btn-point">&#46;</button>
+                <button class="button operator" id="btn-add">&#43;</button>
+            </div>
+            <div class="submit-container">
+                <button class="submit-button" id="btn-submit">Calculate</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
